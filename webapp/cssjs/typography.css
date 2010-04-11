@@ -131,8 +131,24 @@ top: -5px;
 .big-number h1 {font-size: 2.7em;font-weight:700;letter-spacing:-4px;padding: 0 0 0 0;margin: 0;}
 .big-number h3 {color: #666;font-size: .8em;}
 
-.reply-count {font-size: 1.3em;font-weight: bold;background-color: #F3F5FC;padding: 10px;display:block;margin-top:2px;text-align:center;line-height: 1.8em;height:2.2em;border-radius: 5px;moz-border-radius: 5px;}
-a.reply-count:link, a.reply-count:visited {color: #364F68;text-decoration: none;}
+.reply-count {
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #F8F8F8;
+  padding: 10px;
+  display:block;
+  margin-top:2px;
+  text-align:center;
+  line-height: 2em;
+  height:2.2em;
+  border-radius: 5px;
+  moz-border-radius: 5px;
+  border:1px solid #D9D9D9;
+}
+a.reply-count:link, a.reply-count:visited {
+  color: #585858;
+  text-decoration: none;
+}
 
 /* BUTTONS
 adapted from the filament group: http://www.filamentgroup.com/examples/buttonFrameworkCSS/
