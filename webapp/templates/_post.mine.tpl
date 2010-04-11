@@ -40,7 +40,7 @@
   </div>
   <div class="grid_2 center">
     {if $t->mention_count_cache > 0}
-      <span class="reply-count"><a href="{$cfg->site_root_path}post/?t={$t->post_id}">{$t->mention_count_cache}</a></span>
+      <a class="reply-count" href="{$cfg->site_root_path}post/?t={$t->post_id}">{$t->mention_count_cache}</a>
     {else}
       &#160;
     {/if}
